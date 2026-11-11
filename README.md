@@ -121,3 +121,68 @@ Physical input devices X0–X4 are reserved for future hardware integration.
 ---
 
 **Project Category:** Industrial Automation | PLC | HMI | OEE Monitoring
+
+## HMI Screenshots
+
+The project includes five HMI views developed using Mitsubishi GT Designer3.
+
+### 1. Home Screen
+![Home Screen](Screenshots/01_Home_Screen.png)
+
+### 2. Production Monitor
+![Production Monitor](Screenshots/02_Production_Monitor.png)
+
+### 3. Settings and Modes
+![Settings and Modes](Screenshots/03_Settings_Modes.png)
+
+### 4. Machine Status
+![Machine Status](Screenshots/04_Machine_Status.png)
+
+### 5. Alarm and Fault Monitoring
+![Alarm and Fault](Screenshots/05_Alarm_Fault.png)
+
+---
+
+## Repository Structure
+
+```text
+Industrial-OEE-Monitoring-System/
+│
+├── PLC/
+│   ├── OEE_Ladder_Program.gx3
+│   └── README.md
+│
+├── HMI/
+│   ├── OEE_HMI_Design.gtx
+│   └── README.md
+│
+├── Documentation/
+│   ├── Final_Report_OEE.pdf
+│   ├── PLC_HMI_Device_Allocation.xlsx
+│   └── README.md
+│
+├── Screenshots/
+│   ├── 01_Home_Screen.png
+│   ├── 02_Production_Monitor.png
+│   ├── 03_Settings_Modes.png
+│   ├── 04_Machine_Status.png
+│   ├── 05_Alarm_Fault.png
+│   └── README.md
+│
+└── README.md
+```
+
+## How to Run
+
+1. Open the PLC project using Mitsubishi GX Works3.
+2. Open the HMI project using Mitsubishi GT Designer3.
+3. Use GX Simulator3 to simulate the PLC program.
+4. Use GT Simulator3 to test the HMI screens and PLC interaction.
+
+Refer to the Documentation folder for the detailed project report and device allocation.
+
+**Note:** This project currently uses software simulation. Physical hardware integration is part of future scope.
+
+## License
+
+No license has been assigned to this repository.
